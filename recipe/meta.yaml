@@ -1,5 +1,5 @@
 {% set name = "django-filebrowser" %}
-{% set version = "4.0.2" %}
+{% set version = "4.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-filebrowser-{{ version }}.tar.gz
-  sha256: bca36fe3d91e68ec7dba41edce6122bae77fd79dedaa09c23f2fde7c85485a3c
+  sha256: 5ed8da98fc9c5361a1e39e18908cc007d8bae77dd891c9fbe87d8aa9892d7656
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7,<3.11
+    - python >=3.7,<3.12
     - pip
   run:
-    - python >=3.7,<3.11
+    - python >=3.7,<3.12
     - django-grappelli >=3.0,<3.1
     - pillow
     - six
