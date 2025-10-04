@@ -3,7 +3,7 @@ About django-filebrowser-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-filebrowser-feedstock/blob/main/LICENSE.txt)
 
-Home: http://django-filebrowser.readthedocs.org
+Home: http://django-filebrowser.readthedocs.org/
 
 Package license: BSD-3-Clause
 
